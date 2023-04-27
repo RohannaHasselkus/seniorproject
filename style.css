@@ -1,0 +1,350 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+
+div.content{
+  margin:100px 80px;
+}
+
+.menu_content{
+  margin:0px 80px;
+}
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-family: 'Raleway', sans-serif;
+}
+h1 { font-size: 3.5em;
+      }
+    .line-1{
+        position: relative;
+        top: 50%;
+        width: 24em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255,255,255,.75);
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+        font-family: 'Raleway', sans-serif;
+    }
+
+    }
+h2 {
+  color: #888;
+  font-style: none;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+}
+
+}
+
+a.next:hover{
+  background-color: #f1f1f1;
+  opacity: 10%;
+  color: #f1f1f1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h2.{
+  text-decoration: none;
+  font-style: normal;
+}
+
+h2.enter{
+  text-decoration: none;
+  font-style: normal;
+  color:white;
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2.enter:hover{
+  font-weight: bold;
+}
+
+ul.entry-menu{
+  float: left;
+  margin: 0px 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-style:normal;
+  text-decoration: none;
+}
+
+li.entry-menu {
+  display: inline;
+  float: left;
+  font-style:normal;
+  text-decoration: none;
+}
+
+a.entry-menu{
+  display: block;
+  margin-right: 100px;
+  font-style:normal;
+  text-decoration: none;
+}
+
+div.thesis{
+  background-color:#inherit;
+  color:#f1f1f1;
+  border-width:0px;
+  border-style:solid;
+  animation: slide-left 0.5s;
+    opacity: 1;
+    transition: opacity 2s linear;
+    margin-top:0px;
+    width:100%;
+    height:100%;
+    padding:none;
+    margin:0px;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 10px;
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #f1f1f1;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+div.sidenav {
+  position:fixed;
+  top: 0px;
+  float:top;
+}
+
+.circles{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: fixed;
+    display: block;
+    list-style: none;
+    height:inherit;
+    Width: inherit;
+    font-size: 20px;
+    background: transparent;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    color:white;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    font-size: 80px;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    font-size: 120px;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    font-size: 40px;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    font-size: 110px;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    font-size: 150px;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    font-size: 50px;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    font-size: 70px;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    font-size: 150px;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+div.navigation{
+  width: inherit;
+  margin: 0px;
+  padding:50px;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top:0px;
+  background-color: none;
+  float: right;
+
+}
+
+div.gallery{
+  float: left;
+  position: fixed;
+  top: 100px;
+  left: 120px;
+}
+
+div.description{
+  border-color: white;
+  border-width: 2px;
+  border-style:solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
